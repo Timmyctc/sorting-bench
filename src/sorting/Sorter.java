@@ -5,7 +5,7 @@ package sorting;
 	 abstract int[] sort(int[]arr);	//every class will provide body for a sort method
 	 
 	 //Abstract method to display the name of the Sorting class (For use during console output later) 
-	 abstract void typeString();
+	 abstract String getType();
 	 
 	 //All sorting classes Extend this abstract class and can make use of its protected swap method
 	  protected void swap(int[]arr ,int index1, int index2) {
